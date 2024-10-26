@@ -3,11 +3,18 @@ body{
     grid-template-columns: auto auto auto auto auto;
     grid-template-rows: auto auto auto auto auto;
     gap: 1em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
 }
 
 header{
     background-color: #344e41;
     grid-column: 1 / 6;
+    display: flex;
+    align-items: center;
 }
 nav{
     grid-column: 2 / 6;
@@ -15,12 +22,23 @@ nav{
 }
 nav ul{
     list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin-left: 50px;
+    font-size: 12px;
+}
+nav li{
+    margin: 0 40px;
+    text-transform: uppercase;
+    color: white;
 }
 
 header img{
     grid-column: 1 ;
     grid-row: 2;
     max-width: 100px;
+    margin-right: 20px;
+    margin-left: 30px;
 }
 
 main{
