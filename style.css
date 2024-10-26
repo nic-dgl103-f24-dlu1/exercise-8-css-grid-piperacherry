@@ -9,7 +9,7 @@ body{
     margin: 0;
     padding: 0;
 }
-
+/*-------HEADER BEGINS-------*/
 header{
     background-color: #344e41;
     grid-column: 1 / 6;
@@ -40,10 +40,32 @@ header img{
     margin-right: 20px;
     margin-left: 30px;
 }
+/*--------HEADER ENDS--------*/
 
 main{
-    background-color: #3a5a40;
+    display: flex;
+    grid-column: 1 / 6;
 }
+
+main h2{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+section img{
+    max-width: 200px;
+}
+
+section p{
+    color: black;
+}
+
+
+
+
 
 aside{
     background-color: #588157;
