@@ -4,9 +4,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+/*Box sizing border box from W3 Schools Css Box Sizing to include padding and border*/
 }
 * {
   box-sizing: inherit;
+/*Box sizing inherit from W3 Schools CSS Box Sizing for consistent sizing*/
 }
 
 body {
@@ -65,7 +67,6 @@ header img {
   margin-right: 2rem;
   margin-left: 30px;
 }
-/*--------HEADER ENDS--------*/
 /*--------MAIN BEGINS--------*/
 main {
   display: grid;
@@ -112,6 +113,7 @@ section p {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+/*Bakcground repeat and positioning from W3 Schools CSS Background image to center the image and prevent the image from repeating across the page*/
 }
 
 .about-1 p {
@@ -145,6 +147,7 @@ section p {
   background-color: #344e41;
   padding: 15px;
   transform: rotate(90deg);
+/*Transform rotate 90 deg from W3 Schools CSS Transform Propety to rotate image horizontal*/
   margin-right: 10%;
 }
 .about-2-content {
@@ -170,7 +173,6 @@ section p {
   color: black;
   font-size: 1.2rem;
 }
-/*-------MAIN ENDS-------*/
 /*-------ASIDE BEGINS-------*/
 
 .ingredients {
@@ -254,7 +256,6 @@ footer {
 .footer-container img {
   grid-column: 1 / 2;
   max-width: 300px;
-  max-width: auto;
   margin-right: 1rem;
   margin-left: 30px;
 }
