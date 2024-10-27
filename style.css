@@ -127,12 +127,28 @@ section p{
 .about-2-text ul{
     margin-top: 0px;
 }
+/*-------MAIN ENDS-------*/
+/*-------ASIDE BEGINS-------*/
 
-aside{
-    background-color: #588157;
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    grid-column: 1 / 6;
 }
 
-footer{
-    background-color: #a3b18a
+.card{
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+}
+
+.card img{
+    max-width: 100%;
+    max-height: 200px;
 }
 
