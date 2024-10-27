@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto auto auto auto auto;
     gap: 1em;
     font-family: "Roboto", sans-serif;
@@ -41,9 +41,9 @@ header img{
     margin-left: 30px;
 }
 /*--------HEADER ENDS--------*/
-
+/*--------MAIN BEGINS--------*/
 main{
-    display: flex;
+    display: grid;
     grid-column: 1 / 6;
 }
 
@@ -53,19 +53,48 @@ main h2{
     font-weight: 100;
     font-style: normal;
     text-transform: uppercase;
+    padding: 20px;
+    background-color: #e4eedf;
 }
 
-section img{
-    max-width: 200px;
+main h3{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-left: 50px;
 }
 
 section p{
     color: black;
+    margin-top: 5px;
 }
 
+.about-1 {
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    grid-column: 1 / 6;
+    grid-row: 1;
+}
 
+.about-1 p{
+    padding-right: 30px;
+}
+.about-2{
+    grid-column: 1 / 6;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
-
+.about-2 p{
+    max-width: 500px;
+    margin-left: 50px;
+}
 
 aside{
     background-color: #588157;
