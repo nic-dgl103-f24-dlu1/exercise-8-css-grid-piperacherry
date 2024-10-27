@@ -103,7 +103,10 @@ section p{
     gap: 20px;
     grid-column: 1 / 6;
     grid-row: 1;
-    background-color: #3a5a40;
+    background-image: url(images/eugene-golovesov.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .about-1 p{
@@ -186,7 +189,7 @@ section p{
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
-    background-color: #6a994e;
+    background-color: #344e41;
     margin-top: 0;
 }
 
