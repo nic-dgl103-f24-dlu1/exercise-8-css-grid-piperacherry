@@ -190,4 +190,40 @@ section p{
     padding: 1.5rem;
 }
 /*----FOOTER BEGINS----*/
+footer {
+    background-color: #3a5a40;
+    padding: 20px;
+    grid-column: 1 / 6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
 
+.footer-container{
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr;
+    align-items: stretch;
+    gap: 20px;
+}
+.footer-container img{
+    grid-column: 1 / 2 ;
+    max-width: 220px;
+    margin-right: 2rem;
+    margin-left: 30px;
+    max-height: auto;
+}
+
+.footer-container ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+h5{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 1.5rem;
+}
