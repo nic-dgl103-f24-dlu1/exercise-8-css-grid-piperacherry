@@ -1,3 +1,13 @@
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+
 body{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -6,9 +16,12 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin: 0;
-    padding: 0;
 }
+
+header, main, footer{
+    grid-column: 1 / -1;
+}
+
 p{
     font-size: 1.4rem;
 }
@@ -22,7 +35,7 @@ header{
 }
 nav{
     grid-column: 2 / 6;
-    grid-row: 2;
+    grid-row: 1;
 }
 nav ul{
     list-style-type: none;
@@ -111,16 +124,18 @@ section p{
     padding: 0 20px;
 }
 .about-2 img{
-    max-width: 300px;
+    width: 40%;
     background-color: white;
     padding: 15px;
     transform: rotate(90deg);
-    margin: 0 auto 0 100px;
+    margin: 20px;
+    margin-right: 10%;
 }
 .about-2-content{
     display: flex;
     align-items: center;
     gap: 20px;
+    justify-content: space-between;
 }
 .about-2-text{
     display: flex;
@@ -192,7 +207,7 @@ section p{
 /*----FOOTER BEGINS----*/
 footer {
     background-color: #3a5a40;
-    padding: 20px;
+    padding: 20px 20px 200px;
     grid-column: 1 / 6;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
@@ -206,11 +221,11 @@ footer {
     gap: 20px;
 }
 .footer-container img{
-    grid-column: 1 / 2 ;
-    max-width: 220px;
-    margin-right: 2rem;
+    grid-column: 1 / 2;
+    max-width: 300px;
+    max-width: auto;
+    margin-right: 1rem;
     margin-left: 30px;
-    max-height: auto;
 }
 
 .footer-container ul{
@@ -221,9 +236,16 @@ footer {
     font-size: 1.2rem;
     text-transform: uppercase;
 }
+.footer-container li{
+    margin-bottom: 10px;
+}
 
 h5{
     margin-bottom: 10px;
     color: white;
     font-size: 1.5rem;
+}
+.about-form, .socials, .contact{
+    border-left: 1px solid white;
+    padding-left: 50px;
 }
