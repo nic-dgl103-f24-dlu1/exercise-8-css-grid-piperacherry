@@ -69,6 +69,7 @@ main h3{
     margin: 0;
     font-size: 1.5rem;
 }
+
 h2, h3, h4{
     font-weight: 400;
 }
@@ -89,7 +90,7 @@ section p{
 }
 
 .about-1 p{
-    padding-right: 2rem;
+    padding: 1.5rem;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -100,7 +101,7 @@ section p{
     display: flex;
     flex-direction: column;
     background-color: #344e41;
-    gap: 20px;
+    gap: 1em;
 }
 
 .about-2 p{
@@ -185,3 +186,8 @@ section p{
     font-style: normal;
     font-size: 1.4rem;
 }
+.cards p{
+    padding: 1.5rem;
+}
+/*----FOOTER BEGINS----*/
+
