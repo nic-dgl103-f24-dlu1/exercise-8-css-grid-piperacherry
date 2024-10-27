@@ -9,13 +9,16 @@ body{
     margin: 0;
     padding: 0;
 }
+p{
+    font-size: 1.4rem;
+}
 /*-------HEADER BEGINS-------*/
 header{
     background-color: #344e41;
     grid-column: 1 / 6;
     display: flex;
     align-items: center;
-    margin-bottom: -20px;
+    margin-bottom: 5px;
 }
 nav{
     grid-column: 2 / 6;
@@ -26,7 +29,7 @@ nav ul{
     display: flex;
     padding: 0;
     margin-left: 50px;
-    font-size: 12px;
+    font-size: 1.4rem;
 }
 nav li{
     margin: 0 40px;
@@ -46,6 +49,7 @@ header img{
 main{
     display: grid;
     grid-column: 1 / 6;
+    gap: 1em;
 }
 
 main h2{
@@ -96,6 +100,7 @@ section p{
     display: flex;
     flex-direction: column;
     background-color: #344e41;
+    gap: 20px;
 }
 
 .about-2 p{
@@ -130,6 +135,7 @@ section p{
 .about-2-text ul{
     margin: 0 0 0 50px;
     color: white;
+    font-size: 1.4rem;
 }
 /*-------MAIN ENDS-------*/
 /*-------ASIDE BEGINS-------*/
@@ -177,4 +183,5 @@ section p{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 1.4rem;
 }
