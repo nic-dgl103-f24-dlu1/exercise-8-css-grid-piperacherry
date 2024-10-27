@@ -23,7 +23,12 @@ header, main, footer{
 }
 
 p{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+}
+a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
 }
 /*-------HEADER BEGINS-------*/
 header{
@@ -115,13 +120,14 @@ section p{
     flex-direction: column;
     background-color: #344e41;
     gap: 1em;
+    padding: 0;
 }
 
 .about-2 p{
     max-width: 70%;
     margin-left: 50px;
     margin-right: auto;
-    padding: 0 20px;
+    padding: 0px;
     line-height: 1.2;
 }
 
@@ -130,7 +136,6 @@ section p{
     background-color: white;
     padding: 15px;
     transform: rotate(90deg);
-    margin: 20px;
     margin-right: 10%;
 }
 .about-2-content{
@@ -154,7 +159,7 @@ section p{
 .about-2-text ul{
     margin: 0 0 0 50px;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 /*-------MAIN ENDS-------*/
 /*-------ASIDE BEGINS-------*/
@@ -254,6 +259,7 @@ footer {
 }
 .footer-container li{
     margin-bottom: 10px;
+    font-size: 1rem;
 }
 
 h5{
